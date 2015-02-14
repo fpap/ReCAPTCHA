@@ -1,6 +1,6 @@
 # ReCAPTCHA
 
-This is the **maintained** fork from the [original ReCAPTCHA](https://github.com/google/ReCAPTCHA) repo.
+This is the **maintained** fork of the [original ReCAPTCHA](https://github.com/google/ReCAPTCHA) repo.
 
 ![Demo](http://i.imgur.com/pPNXFgx.gif)
 
