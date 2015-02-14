@@ -41,17 +41,21 @@ $reCaptcha = new ReCaptcha($secret);
 
 // Was there a reCAPTCHA response?
 if (isset($_POST["g-recaptcha-response"])) {
-    $resp = $reCaptcha->verifyResponse(
-        $_SERVER["REMOTE_ADDR"],
-        $_POST["g-recaptcha-response"]
-    );
+	try {
+		$resp = $reCaptcha->verifyResponse(
+			$_SERVER["REMOTE_ADDR"],
+			$_POST["g-recaptcha-response"]
+		);
+	} catch (ReCaptchaException $e) {
+
+	}
 }
 ?>
 <html>
   <head><title>reCAPTCHA Example</title></head>
   <body>
 <?php
-if ($resp != null && $resp->success) {
+if (is_object($resp) && $resp->success) {
     echo "You got it!";
 }
 ?>
