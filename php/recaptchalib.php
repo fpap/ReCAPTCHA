@@ -131,11 +131,11 @@ class ReCaptcha
 		if ( trim( $answers [ 'success' ] ) == true )
 		{
 			$recaptchaResponse->success = true;
+			$recaptchaResponse->errorCodes = $answers[ 'error-codes' ];
 		}
 		else
 		{
-			$recaptchaResponse->success    = false;
-			$recaptchaResponse->errorCodes = $answers[ 'error-codes' ];
+			$recaptchaResponse->success = false;
 		}
 
 		return $recaptchaResponse;
