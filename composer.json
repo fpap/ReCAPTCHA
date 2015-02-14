@@ -11,6 +11,9 @@
 		}
 	],
 	"minimum-stability" : "stable",
+	"replace" : {
+		"google/ReCAPTCHA" : "*"
+	},
 	"require" : {
 		"php" : ">=5.3"
 	},
