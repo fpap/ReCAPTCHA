@@ -1,21 +1,25 @@
 {
-    "name": "wecodemore/recaptcha",
-    "description": "ReCAPTCHA is a free CAPTCHA service that protects websites from spam and abuse.",
-    "license": "BSD",
-    "authors": [
-        {
-            "name": "Kaiser Franz Josef",
-            "email": "wecodemore@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {},
-    "support": {
-      "issues": "https://github.com/Rarst/release-belt/issues"
-    },
-	"autoload": {
-		"psr-4": {
-			"WCM\\ReCAPTCHA\\": "php/"
+	"name"        : "wecodemore/recaptcha",
+	"description" : "ReCAPTCHA is a free CAPTCHA service that protects websites from spam and abuse.",
+	"type"        : "library",
+	"license"     : "BSD-3-Clause",
+	"keywords"    : [ "captcha", "recaptcha", "form" ],
+	"authors"     : [
+		{
+			"name"  : "Kaiser Franz Josef",
+			"email" : "wecodemore@gmail.com"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=5.3"
+	},
+	"support" : {
+		"issues" : "https://github.com/Rarst/release-belt/issues"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"WCM\\ReCAPTCHA\\" : "php/"
 		}
 	}
 }
