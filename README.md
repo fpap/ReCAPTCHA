@@ -22,13 +22,13 @@ More info [on the official](http://www.google.com/recaptcha/intro/) Google Page.
 
 You can just clone it via Git
 
-    git clone
+    git clone git@github.com:wecodemore/ReCAPTCHA.git <your-target-dir>
 
-Or use Composer (recommended)
+Or use Composer (recommended).
+The Package is [auto-updated from GitHub to Packagist](https://packagist.org/packages/wecodemore/recaptcha)
+so every commited/merged change on GitHub is instantly available via Composer.
 
-	# Install composer locally
 	php composer.phar install
-
 
 ## Contributing
 
