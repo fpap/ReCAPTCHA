@@ -1,0 +1,19 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Windows shortcuts
+*.lnk
+
+# OSX
+.DS_Store
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# PHPStorm
+.idea/
+
+
+/vendor/

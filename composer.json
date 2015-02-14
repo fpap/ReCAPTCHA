@@ -1,0 +1,21 @@
+{
+    "name": "wecodemore/recaptcha",
+    "description": "ReCAPTCHA is a free CAPTCHA service that protects websites from spam and abuse.",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Kaiser Franz Josef",
+            "email": "wecodemore@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "support": {
+      "issues": "https://github.com/Rarst/release-belt/issues"
+    },
+	"autoload": {
+		"psr-4": {
+			"WCM\\ReCAPTCHA\\": "php/"
+		}
+	}
+}
