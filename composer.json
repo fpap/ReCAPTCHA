@@ -18,7 +18,7 @@
 		"php" : ">=5.3"
 	},
 	"support" : {
-		"issues" : "https://github.com/Rarst/release-belt/issues"
+		"issues" : "https://github.com/wecodemore/ReCAPTCHA/issues"
 	},
 	"autoload" : {
 		"psr-4" : {
