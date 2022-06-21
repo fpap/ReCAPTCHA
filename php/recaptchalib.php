@@ -54,7 +54,7 @@ class ReCaptcha
 	 * Constructor.
 	 * @param string $secret shared secret between site and ReCAPTCHA server.
 	 */
-	function ReCaptcha( $secret )
+	function __construct( $secret )
 	{
 		if ( $secret == null || $secret == "" )
 		{
